@@ -9,17 +9,17 @@ const OnLine = () => {
     <>
       <Header/>
       <div className='container'>
-        <h1>  ¿Qué dice realmente la biblia sobre la homosexualidad <img src={flag}/>? </h1>
-        <h3><img src={flag}/> Homosexualidad y biblia parte 1</h3>
+        <h1>  ¿Qué dice realmente la biblia sobre la Diversidad <img src={flag}/>? </h1>
+        <h3><img src={flag}/> Diversidad y biblia parte 1</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/FLi7cH8CeOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br/>
-        <h3><img src={flag}/> Homosexualidad y biblia parte 2</h3>
+        <h3><img src={flag}/> Diversidad y biblia parte 2</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/bdAJE9uBnIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br/>
-        <h3><img src={flag}/> Homosexualidad y biblia parte 3</h3>
+        <h3><img src={flag}/> Diversidad y biblia parte 3</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/vzjyjPiAoLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br/>
-        <h3><img src={flag}/> Homosexualidad y biblia parte 4</h3>
+        <h3><img src={flag}/> Diversidad y biblia parte 4</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/JYVZguSi89k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <br/>
         <h2>¿Quieres conocer más? visita nuestro <a href='https://www.youtube.com/channel/UCpjT4YMJN3CDlmjGHIjHeoA/videos' target='_blank'>canal de YouTube</a>, ahí encontrarás predicas, devocionales y testimonios </h2>

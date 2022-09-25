@@ -13,7 +13,7 @@ const Nav = () => {
         <img alt='Logo MCI' src={logo}/>
       </Link>
 
-      <div>
+      <div className='navbar__container-buttons'>
         <Link to='/puerto_seguro'>
           <button>PUERTO SEGURO</button>
         </Link>

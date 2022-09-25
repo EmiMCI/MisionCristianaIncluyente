@@ -1,4 +1,5 @@
 // En esta sección va: Centro de capacitacion para ministros incluyentes, información sobre eso (tira de materias) y link al formulario
+import './Formacion.scss';
 import Footer from "../Footer";
 import Header from "../Header";
 
@@ -79,7 +80,7 @@ const Formacion = () => {
             <li><strong>Carácter pastoral:</strong><br/> (Aquí se verían los temas del libro “De pastor a pastor”).<br/><br/></li>
             <li><strong>Iglecrecimiento integral:</strong><br/> Se analizan los factores principales que impiden el crecimiento de la iglesia, y se analizan propuestas para revitalizar, a fin de obtener congregaciones dinámicas que trabajen con más vigor y eficiencia.<br/><br/></li>
           </ol>
-          <h2>Iscríbete, entra al <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5vOEO70SMshccScZpqcNCQ9S5OxcVabFTAF2iYzJTKB9MvQ/viewform" target='_blank'>formulario</a> y registrate</h2>
+          <h2>Iscríbete, entra al <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5vOEO70SMshccScZpqcNCQ9S5OxcVabFTAF2iYzJTKB9MvQ/viewform" target='_blank'>formulario</a> y regístrate</h2>
         </div>
       <Footer/>
     </>
