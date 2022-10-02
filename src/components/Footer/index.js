@@ -13,10 +13,10 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <div className='footer__logo-container'>
-        <Link to='/MisionCristianaIncluyente/'>
+        <Link to='/'>
           <img alt='Logo MCI' src={logo}/>
         </Link>
-        <Link to='/MisionCristianaIncluyente/ofrendas'>
+        <Link to='/ofrendas'>
           <button>OFRENDAS</button>
         </Link>
       </div>

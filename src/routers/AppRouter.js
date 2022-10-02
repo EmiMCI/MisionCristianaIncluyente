@@ -9,16 +9,15 @@ import PuertoSeguro from '../components/PuertoSeguro';
 
 export const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/MisionCristianaIncluyente">
       <Nav/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/MisionCristianaIncluyente/' element={<Home/>}/>
-        <Route path='/MisionCristianaIncluyente/puerto_seguro' element={<PuertoSeguro/>}/>
-        <Route path='/MisionCristianaIncluyente/onLine' element={<OnLine/>}/>
-        <Route path='/MisionCristianaIncluyente/iglesia' element={<Iglesia/>}/>
-        <Route path='/MisionCristianaIncluyente/formacion' element={<Formacion/>}/>
-        <Route path='/MisionCristianaIncluyente/ofrendas' element={<Ofrendas/>}/>
+        <Route path='/puerto_seguro' element={<PuertoSeguro/>}/>
+        <Route path='/onLine' element={<OnLine/>}/>
+        <Route path='/iglesia' element={<Iglesia/>}/>
+        <Route path='/formacion' element={<Formacion/>}/>
+        <Route path='/ofrendas' element={<Ofrendas/>}/>
       </Routes>
     </BrowserRouter>
   )

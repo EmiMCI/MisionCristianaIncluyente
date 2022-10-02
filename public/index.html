@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/logo-192.png" />
@@ -7,7 +7,9 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Somos una Iglesia Cristiana Pentecostés con un gobierno Apostólico Profético.
+      Nuestro principal objetivo es proclamar el amor de Dios con poder en medio del pueblo
+      LGBTTTIQ, siguiendo a Jesucristo como nuestro único salvador."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo-192.png" />
     <!--
@@ -25,6 +27,30 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>MCI | Identidad, Seguridad y Dirección en nuestro andar</title>
+        <!-- Start Single Page Apps for GitHub Pages -->
+        <script type="text/javascript">
+          // Single Page Apps for GitHub Pages
+          // MIT License
+          // https://github.com/rafgraph/spa-github-pages
+          // This script checks to see if a redirect is present in the query string,
+          // converts it back into the correct url and adds it to the
+          // browser's history using window.history.replaceState(...),
+          // which won't cause the browser to attempt to load the new url.
+          // When the single page app is loaded further down in this file,
+          // the correct url will be waiting in the browser's history for
+          // the single page app to route accordingly.
+          (function(l) {
+            if (l.search[1] === '/' ) {
+              var decoded = l.search.slice(1).split('&').map(function(s) { 
+                return s.replace(/~and~/g, '&')
+              }).join('?');
+              window.history.replaceState(null, null,
+                  l.pathname.slice(0, -1) + decoded + l.hash
+              );
+            }
+          }(window.location))
+        </script>
+        <!-- End Single Page Apps for GitHub Pages -->
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
