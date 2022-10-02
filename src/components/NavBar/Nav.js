@@ -9,24 +9,24 @@ const Nav = () => {
 
   return (
     <div className='navbar__container'>
-      <Link to='/'>
+      <Link to='/MisionCristianaIncluyente/'>
         <img alt='Logo MCI' src={logo}/>
       </Link>
 
       <div className='navbar__container-buttons'>
-        <Link to='/puerto_seguro'>
+        <Link to='/MisionCristianaIncluyente/puerto_seguro'>
           <button>PUERTO SEGURO</button>
         </Link>
-        <Link to='/onLine'>
+        <Link to='/MisionCristianaIncluyente/onLine'>
           <button>EN LINEA</button>
         </Link>
-        <Link to='/iglesia'>
+        <Link to='/MisionCristianaIncluyente/iglesia'>
           <button>IGLESIA</button>
         </Link>
-        <Link to='/formacion'>
+        <Link to='/MisionCristianaIncluyente/formacion'>
           <button>FORMACIÓN</button>
         </Link>
-        <Link to='/ofrendas'>
+        <Link to='/MisionCristianaIncluyente/ofrendas'>
           <button>OFRENDAS</button>
         </Link>
       </div>

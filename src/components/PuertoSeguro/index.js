@@ -12,11 +12,9 @@ const PuertoSeguro = () => {
     <>
       <Header/>
       <div className="container">
-        <div>
-          <h2>Nuestra historia</h2>
-          <p>
-            rem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          </p>
+        <div style={{width: '100%'}}>
+          <h1>Nuestra historia</h1>
+          <iframe style={{width: '100%'}} height="500" src="https://www.youtube.com/embed/D9AfvyLjyWg" title="Nuestra Historia MCI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div>
           <h2>Líderes</h2>
@@ -53,7 +51,21 @@ const PuertoSeguro = () => {
               <h3>
               Fernando Emmanuel Ponce
               </h3>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+              <p>Hola me llamo Fernando Emmanuel, tengo 36 años. 
+Soy cristiano desde los 12 años de edad. 
+Vivo en Cuernavaca. <br/><br/>
+
+Yo llegue a MCI el 30 de junio de 2013, aunque un día antes fue la primera vez que los vi en la marcha del Orgullo de la Ciudad de México.  
+Creo que Dios me estaba llamando nuevamente.<br/><br/>
+
+Actualmente soy parte del cuerpo de Ancianos de la  Iglesia, algo que he alcanzado gracias al trabajo que Dios ha hecho en mi vida; demás participo como líder de la Célula MCI Cuernavaca.<br/><br/>
+
+Desde que llegue a MCI me reencontré con Dios, entendí que mi orientación sexual no me alejaba de  Él.<br/><br/>
+
+Alabo y adoro al Señor de manera libre, siendo quien soy y confiando en el amor de Dios.<br/><br/>
+
+En esta iglesia encontré: el amor inclusivo del Padre y  hermanos con los cuales puedo estar en comunión y juntos adorar al Rey. 
+</p>
             </div>
           </div>
         </div>

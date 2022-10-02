@@ -13,10 +13,10 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <div className='footer__logo-container'>
-        <Link to='/'>
+        <Link to='/MisionCristianaIncluyente/'>
           <img alt='Logo MCI' src={logo}/>
         </Link>
-        <Link to='/ofrendas'>
+        <Link to='/MisionCristianaIncluyente/ofrendas'>
           <button>OFRENDAS</button>
         </Link>
       </div>
@@ -25,12 +25,12 @@ const Footer = () => {
         <div>
           <h4>Sede Oriente:</h4>
           <p>Cecilio Robelo #517, Venustiano Carranza, Ciudad de México.</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.819492606405!2d-99.10585138461269!3d19.42020364610817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffd4c28f804b%3A0xfb668f9e8f69471c!2sMisi%C3%B3n%20Cristiana%20Incluyente!5e0!3m2!1ses-419!2smx!4v1654406133336!5m2!1ses-419!2smx" style={{border: '0', width: '400px', height: '100px'}} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.819492606405!2d-99.10585138461269!3d19.42020364610817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffd4c28f804b%3A0xfb668f9e8f69471c!2sMisi%C3%B3n%20Cristiana%20Incluyente!5e0!3m2!1ses-419!2smx!4v1654406133336!5m2!1ses-419!2smx" style={{border: '0', width: '95%', height: '100px'}} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div>
           <h4>Sede Norte:</h4>
           <p>Planetas 1, El Rosario, Azcapotzalco, 02100 Ciudad de México, CDMX.</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.8634742078634!2d-99.20492268461197!3d19.504508743430222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d202bceb9ba379%3A0x6f578700cded4c97!2sPlanetas%201%2C%20El%20Rosario%2C%20Azcapotzalco%2C%2002100%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1655013056644!5m2!1ses-419!2smx" style={{border: '0', width: '400px', height: '100px'}}  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.8634742078634!2d-99.20492268461197!3d19.504508743430222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d202bceb9ba379%3A0x6f578700cded4c97!2sPlanetas%201%2C%20El%20Rosario%2C%20Azcapotzalco%2C%2002100%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1655013056644!5m2!1ses-419!2smx" style={{border: '0', width: '95%', height: '100px'}}  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
       <div className='footer__socialmedia-container'>

@@ -8,22 +8,25 @@ const Header = () => {
   useEffect(() => {
     const path = window.location.pathname;
     switch (path) {
-      case '/':
+      case '/MisionCristianaIncluyente/':
         setBackground('home');
         break;
-      case '/puerto_seguro':
+      case '/MisionCristianaIncluyente':
+          setBackground('home');
+        break;
+      case '/MisionCristianaIncluyente/puerto_seguro':
         setBackground('puerto-seguro');
         break;
-      case '/onLine':
+      case '/MisionCristianaIncluyente/onLine':
         setBackground('online');
         break;
-      case '/iglesia':
+      case '/MisionCristianaIncluyente/iglesia':
         setBackground('iglesia');
         break;
-      case '/formacion':
+      case '/MisionCristianaIncluyente/formacion':
         setBackground('formacion');
         break;
-      case '/ofrendas':
+      case '/MisionCristianaIncluyente/ofrendas':
         setBackground('ofrendas');
         break;
       default:

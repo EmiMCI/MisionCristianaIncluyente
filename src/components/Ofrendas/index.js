@@ -9,9 +9,9 @@ const Ofrendas = () => {
     <>
       <Header/>
       <div className="container">
-        <h2>
+        <h1>
           Ofrendas
-        </h2>
+        </h1>
         <h3>
           Traed todos los diezmos al alfolí y haya alimento en mi casa; y probadme ahora en esto, dice Jehová de los ejércitos, si no os abriré las ventanas de los cielos, y derramaré sobre vosotros bendición hasta que sobreabunde.
 
