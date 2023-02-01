@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MisionCristianaIncluyente/static/css/main.2bd8d7f9.css",
-    "main.js": "/MisionCristianaIncluyente/static/js/main.d68f59f4.js",
+    "main.css": "/MisionCristianaIncluyente/static/css/main.13993d86.css",
+    "main.js": "/MisionCristianaIncluyente/static/js/main.f398bc4b.js",
     "static/media/header_en_linea.jpeg": "/MisionCristianaIncluyente/static/media/header_en_linea.95d7abb4273c8aabdb31.jpeg",
     "static/media/header.jpeg": "/MisionCristianaIncluyente/static/media/header.9447da8026656b9d6f7e.jpeg",
     "static/media/jesus.jpg": "/MisionCristianaIncluyente/static/media/jesus.ab1444132495b1f1e744.jpg",
@@ -12,6 +12,7 @@
     "static/media/header_puerto-seguro.jpg": "/MisionCristianaIncluyente/static/media/header_puerto-seguro.2ab6a6b5a5c480f4f0b5.jpg",
     "static/media/header_ofrendas.jpg": "/MisionCristianaIncluyente/static/media/header_ofrendas.9a85451a7fa43538c8c8.jpg",
     "static/media/Logo_MCI_EMI-nbg.png": "/MisionCristianaIncluyente/static/media/Logo_MCI_EMI-nbg.266a8d8776afdce80f6a.png",
+    "static/media/aniversarioProp.jpg": "/MisionCristianaIncluyente/static/media/aniversarioProp.d7b67ad832dfced58fe4.jpg",
     "static/media/cta.jpeg": "/MisionCristianaIncluyente/static/media/cta.7ba38330f9d5a715eac0.jpeg",
     "static/media/PsJannet.jpg": "/MisionCristianaIncluyente/static/media/PsJannet.d85eb68d2f3ead02d211.jpg",
     "static/media/whatsapp.png": "/MisionCristianaIncluyente/static/media/whatsapp.965d92ce0d9f486938b6.png",
@@ -20,12 +21,14 @@
     "static/media/twitter.png": "/MisionCristianaIncluyente/static/media/twitter.93ac3f9a344ecd5d01a4.png",
     "static/media/youtube.png": "/MisionCristianaIncluyente/static/media/youtube.060528b6e83f2004078d.png",
     "static/media/facebook.png": "/MisionCristianaIncluyente/static/media/facebook.a5def58db1e9c1b38269.png",
+    "static/media/alarma.png": "/MisionCristianaIncluyente/static/media/alarma.90be5d76b0779fc5d752.png",
+    "static/media/cancelar.png": "/MisionCristianaIncluyente/static/media/cancelar.3988bd44ccb57180ffff.png",
     "index.html": "/MisionCristianaIncluyente/index.html",
-    "main.2bd8d7f9.css.map": "/MisionCristianaIncluyente/static/css/main.2bd8d7f9.css.map",
-    "main.d68f59f4.js.map": "/MisionCristianaIncluyente/static/js/main.d68f59f4.js.map"
+    "main.13993d86.css.map": "/MisionCristianaIncluyente/static/css/main.13993d86.css.map",
+    "main.f398bc4b.js.map": "/MisionCristianaIncluyente/static/js/main.f398bc4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bd8d7f9.css",
-    "static/js/main.d68f59f4.js"
+    "static/css/main.13993d86.css",
+    "static/js/main.f398bc4b.js"
   ]
 }
