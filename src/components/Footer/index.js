@@ -5,11 +5,38 @@ import instagram from '../../assets/instagram.png';
 import youtube from '../../assets/youtube.png';
 import spotify from '../../assets/spotify.png'; 
 import whatsapp from '../../assets/whatsapp.png'; 
+import notification from '../../assets/alarma.png'; 
+import aniversario from '../../assets/aniversarioProp.jpg'; 
+import x from '../../assets/cancelar.png'; 
 import { Link } from 'react-router-dom';
 
 import './Footer.scss';
+import { useEffect, useState } from 'react';
 
 const Footer = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [isShowPromo, setIsShowPromo] = useState(false);
+
+  useEffect(() => {
+    const icon = document.getElementById('notification');
+    const body = document.getElementsByTagName('body');
+    if (showModal) {
+      body[0].setAttribute("style", "overflow: hidden;")
+    } else {
+      body[0].setAttribute("style", "overflow: inherit;")
+    }
+    if (!showModal && !isShowPromo) {
+      setInterval(() => {
+        icon.classList.add('footer__notification--shaker');
+      }, 5000)
+      setInterval(() => {
+        icon.classList.remove('footer__notification--shaker');
+      }, 5500)
+    } else {
+      clearInterval(1);
+      clearInterval(2);
+    }
+  }, [showModal]);
   return (
     <footer className='footer'>
       <div className='footer__logo-container'>
@@ -29,8 +56,8 @@ const Footer = () => {
         </div>
         <div>
           <h4>Sede Norte:</h4>
-          <p>Planetas 1, El Rosario, Azcapotzalco, 02100 Ciudad de México, CDMX.</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.8634742078634!2d-99.20492268461197!3d19.504508743430222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d202bceb9ba379%3A0x6f578700cded4c97!2sPlanetas%201%2C%20El%20Rosario%2C%20Azcapotzalco%2C%2002100%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1655013056644!5m2!1ses-419!2smx" style={{border: '0', width: '95%', height: '100px'}}  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p>Ahuehuetes 592b, Pasteros, Azcapotzalco, 02150 Ciudad de México.</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.0822009700364!2d-99.19909148461208!3d19.495098943729715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d202996005ac9d%3A0x10463b3f8b30885d!2sAhuehuetes%20592b%2C%20Pasteros%2C%20Azcapotzalco%2C%2002150%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1675223086527!5m2!1ses-419!2smx" style={{border: '0', width: '95%', height: '100px'}}  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
       <div className='footer__socialmedia-container'>
@@ -51,10 +78,23 @@ const Footer = () => {
           <img src={spotify}/>
         </a>
       </div>
-
+      <div id='notification' className='footer__notification'>
+        <img   src={notification} onClick={() => setShowModal(true)}/>
+      </div>
+      
       <a href='https://api.whatsapp.com/send/?phone=5215514733826&text=Hola!!%20Visit%C3%A9%20su%20p%C3%A1gina%20en%20internet%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n' target='_blank' rel='noreferrer'>
         <img  className='footer__whatsapp-button' src={whatsapp}/>
       </a>
+
+      {showModal && <div className='footer__modal'>
+      <button onClick={() => {
+        setShowModal(false)
+        setIsShowPromo(true)
+      }}><img src={x}/></button>
+      <a href='https://api.whatsapp.com/send/?phone=5215514733826&text=Hola!!%20Visit%C3%A9%20su%20p%C3%A1gina%20en%20internet%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20aniversario' target='_blank' rel='noreferrer'>
+        <img src={aniversario}/>
+      </a>
+      </div>}
     </footer>
   );
 };

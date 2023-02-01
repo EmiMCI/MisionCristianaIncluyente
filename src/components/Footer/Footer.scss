@@ -1,3 +1,17 @@
+@keyframes tiembla{
+  0%{-webkit-transform:translate(0px,0px);}
+    10%{-webkit-transform:translate(20px,0px);}
+    20%{-webkit-transform:translate(0px,0px);}
+    30%{-webkit-transform:translate(20px,0px);}
+    40%{-webkit-transform:translate(0px,0px);}
+    50%{-webkit-transform:translate(20px,0px);}
+    60%{-webkit-transform:translate(0px,0px);}
+    70%{-webkit-transform:translate(20px,0px);}
+    80%{-webkit-transform:translate(0px,0px);}
+    90%{-webkit-transform:translate(20px,0px);}
+    100%{-webkit-transform:translate(0px,0px);}
+}
+
 .footer {
   display: flex;
   background-color: #000000;
@@ -65,4 +79,67 @@
     }
     
   }
+
+  &__notification {
+    position: fixed;
+    right: 50px;
+    bottom: 200px;
+    z-index: 3;
+    cursor: pointer;
+    @media only screen and (max-width: 789px) {
+      right: 10px;
+    }
+    
+    img{
+      width: 80px;
+      height: auto;
+      @media only screen and (max-width: 789px) {
+        width: 40px;
+      }
+    }
+
+    &--shaker {
+      animation: tiembla .5s;
+    }
+  }
+
+  &__modal {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255, 0.8);
+    height: 100vh;
+    
+    button {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      background: transparent;
+      border: none;
+      top: 100px;
+      right: 10%;
+      cursor: pointer;
+      img {
+        width: 100%;
+      }
+    }
+
+    a {
+      width: 50%;
+      cursor: pointer;
+      @media only screen and (max-width: 789px) {
+        width: 80%;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+  
 }
