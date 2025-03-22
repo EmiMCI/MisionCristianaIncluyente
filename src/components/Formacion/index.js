@@ -1,13 +1,14 @@
 // En esta sección va: Centro de capacitacion para ministros incluyentes, información sobre eso (tira de materias) y link al formulario
 import './Formacion.scss';
-import Footer from "../Footer";
-import Header from "../Header";
+import Footer from '../Footer';
+import Header from '../Header';
+import centroDeCapacitacion from '../../assets/grupos/CentroDeCapacitacion.mp4';
 
 const Formacion = () => {
   return (
     <>
-      <Header/>
-        <div className="container">
+      <Header />
+      {/* <div className="container">
           <h1>Centro de capacitación para ministros incluyentes-EMI</h1>
           <h3>Visión</h3>
           <p>Formar creyentes, servidores, líderes y pastores que estén integralmente preparados para anunciar, manifestar y establecer el Reino celestial en la tierra.</p>
@@ -81,10 +82,15 @@ const Formacion = () => {
             <li><strong>Iglecrecimiento integral:</strong><br/> Se analizan los factores principales que impiden el crecimiento de la iglesia, y se analizan propuestas para revitalizar, a fin de obtener congregaciones dinámicas que trabajen con más vigor y eficiencia.<br/><br/></li>
           </ol>
           <h2>Iscríbete, entra al <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5vOEO70SMshccScZpqcNCQ9S5OxcVabFTAF2iYzJTKB9MvQ/viewform" target='_blank'>formulario</a> y regístrate</h2>
-        </div>
-      <Footer/>
+        </div> */}
+      <div className="container">
+        <video controls autoPlay muted>
+          <source src={centroDeCapacitacion} type="video/mp4" />
+        </video>
+      </div>
+      <Footer />
     </>
-  )
+  );
 };
 
 export default Formacion;

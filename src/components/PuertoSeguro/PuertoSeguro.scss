@@ -7,11 +7,18 @@
   max-width: 950px;
   width: 90%;
 
+  &__videos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
   .lider-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 0px 20px 1px rgba(230,230,230,0.69);
+    box-shadow: 0px 0px 20px 1px rgba(230, 230, 230, 0.69);
     margin: 50px 0;
     img {
       width: 50%;
