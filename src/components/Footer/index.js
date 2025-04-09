@@ -6,7 +6,7 @@ import youtube from '../../assets/youtube.png';
 import spotify from '../../assets/spotify.png';
 import whatsapp from '../../assets/whatsapp.png';
 import notification from '../../assets/alarma.png';
-import aniversario from '../../assets/aniversarioProp.jpg';
+import congreso from '../../assets/congreso.jpg';
 import x from '../../assets/cancelar.png';
 import { Link } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ import './Footer.scss';
 import { useEffect, useState } from 'react';
 
 const Footer = () => {
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(true);
   const [isShowPromo, setIsShowPromo] = useState(false);
 
   useEffect(() => {
@@ -134,11 +134,11 @@ const Footer = () => {
             <img src={x} />
           </button>
           <a
-            href="https://api.whatsapp.com/send/?phone=5215514733826&text=Hola!!%20Visit%C3%A9%20su%20p%C3%A1gina%20en%20internet%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20aniversario"
+            href="https://api.whatsapp.com/send/?phone=5215514733826&text=Hola!!%20Visit%C3%A9%20su%20p%C3%A1gina%20en%20internet%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20congreso"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={aniversario} />
+            <img src={congreso} />
           </a>
         </div>
       )}
