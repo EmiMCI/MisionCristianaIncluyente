@@ -14,29 +14,29 @@ import './Footer.scss';
 import { useEffect, useState } from 'react';
 
 const Footer = () => {
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
   const [isShowPromo, setIsShowPromo] = useState(false);
 
-  useEffect(() => {
-    const icon = document.getElementById('notification');
-    const body = document.getElementsByTagName('body');
-    if (showModal) {
-      body[0].setAttribute('style', 'overflow: hidden;');
-    } else {
-      body[0].setAttribute('style', 'overflow: inherit;');
-    }
-    if (!showModal && !isShowPromo) {
-      setInterval(() => {
-        icon.classList.add('footer__notification--shaker');
-      }, 5000);
-      setInterval(() => {
-        icon.classList.remove('footer__notification--shaker');
-      }, 5500);
-    } else {
-      clearInterval(1);
-      clearInterval(2);
-    }
-  }, [showModal]);
+  // useEffect(() => {
+  //   const icon = document.getElementById('notification');
+  //   const body = document.getElementsByTagName('body');
+  //   if (showModal) {
+  //     body[0].setAttribute('style', 'overflow: hidden;');
+  //   } else {
+  //     body[0].setAttribute('style', 'overflow: inherit;');
+  //   }
+  //   if (!showModal && !isShowPromo) {
+  //     setInterval(() => {
+  //       icon.classList.add('footer__notification--shaker');
+  //     }, 5000);
+  //     setInterval(() => {
+  //       icon.classList.remove('footer__notification--shaker');
+  //     }, 5500);
+  //   } else {
+  //     clearInterval(1);
+  //     clearInterval(2);
+  //   }
+  // }, [showModal]);
   return (
     <footer className="footer">
       <div className="footer__logo-container">
@@ -111,9 +111,9 @@ const Footer = () => {
           <img src={spotify} />
         </a>
       </div>
-      <div id="notification" className="footer__notification">
+      {/* <div id="notification" className="footer__notification">
         <img src={notification} onClick={() => setShowModal(true)} />
-      </div>
+      </div> */}
 
       <a
         href="https://api.whatsapp.com/send/?phone=5215514733826&text=Hola!!%20Visit%C3%A9%20su%20p%C3%A1gina%20en%20internet%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n"
