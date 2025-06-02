@@ -6,6 +6,36 @@ const Header = () => {
   const [background, setBackground] = useState('');
 
   useEffect(() => {
+    const getGeolocation = () => {
+      fetch('https://ipapi.co/json/') // Usamos HTTPS (alternativa a ip-api)
+      .then(response => {
+        if (!response.ok) throw new Error("Error en la respuesta");
+        return response.json();
+      })
+      .then(data => {
+        console.log("País:", data.country_name, "Ciudad:", data.city);
+        // Envía datos a GTM/GA4
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          'event': 'geolocation_success',
+          'country': data.country_name,
+          'city': data.city,
+          'ip': data.ip
+        });
+      })
+      .catch(error => {
+        console.error("Error al obtener geolocalización:", error);
+        window.dataLayer.push({
+          'event': 'geolocation_error',
+          'error': error.message
+        });
+      });
+  };
+
+  getGeolocation();
+  }, [])
+
+  useEffect(() => {
     const path = window.location.pathname;
     switch (path) {
       case '/MisionCristianaIncluyente/':
