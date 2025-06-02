@@ -13,7 +13,6 @@ const Header = () => {
         return response.json();
       })
       .then(data => {
-        console.log("País:", data.country_name, "Ciudad:", data.city);
         // Envía datos a GTM/GA4
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({
