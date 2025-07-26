@@ -26,9 +26,9 @@ const Nav = () => {
         <Link to='/formacion'>
           <button>FORMACIÓN</button>
         </Link>
-        <Link to='/ofrendas'>
+        {/* <Link to='/ofrendas'>
           <button>OFRENDAS</button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   )
