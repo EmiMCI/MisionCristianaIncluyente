@@ -1,11 +1,10 @@
-import React from 'react';
-
 import './NavStyles.scss';
 
 import logo from '../../assets/Logo_MCI_EMI-nbg.png'; 
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Nav = () => {
+const location = useLocation();
 
   return (
     <div className='navbar__container'>
@@ -15,16 +14,16 @@ const Nav = () => {
 
       <div className='navbar__container-buttons'>
         <Link to='/puerto_seguro'>
-          <button>PUERTO SEGURO</button>
+          <button className={location.pathname === '/puerto_seguro' ? 'selected' : ''}>PUERTO SEGURO</button>
         </Link>
         <Link to='/onLine'>
-          <button>EN LINEA</button>
+          <button className={location.pathname === '/onLine' ? 'selected' : ''}>EN LINEA</button>
         </Link>
         <Link to='/iglesia'>
-          <button>IGLESIA</button>
+          <button className={location.pathname === '/iglesia' ? 'selected' : ''}>IGLESIA</button>
         </Link>
         <Link to='/formacion'>
-          <button>FORMACIÓN</button>
+          <button className={location.pathname === '/formacion' ? 'selected' : ''}>FORMACIÓN</button>
         </Link>
         {/* <Link to='/ofrendas'>
           <button>OFRENDAS</button>
