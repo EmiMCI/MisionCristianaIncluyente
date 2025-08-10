@@ -65,6 +65,14 @@ const Header = () => {
   
   return (
     <div className={`header__container header__${background}`}>
+      <div className='title'>	
+        <div className='from-right'>
+          ¡Hola!
+        </div>
+        <div className='from-bottom'>
+          Llegaste a un puerto seguro.
+        </div>
+      </div>
     </div>
   )
 };

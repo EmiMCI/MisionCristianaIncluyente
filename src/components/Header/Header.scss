@@ -1,41 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+
 .header {
   &__container {
-    width: 100%;
+    max-width: 100vw;
     height: 100vh;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-end;
+    padding-left: 5rem;
+    padding-right: 3rem;
+    padding-bottom: 10rem;
+    position: relative;
+    box-sizing: border-box;
 
     &::after {
       content: '';
       width: 100%;
-      height: 100vh;
+      height: 100%;
       z-index: 2;
       position: absolute;
       background-color: rgba($color: #8705fa, $alpha: 0.2);
+      left: 0;
+      bottom: 0;
+    }
+
+    .title {
+      margin: 0;
+      padding: 0;
+      font-size: 3em;
+      line-height: 1.2em;
+      display: flex;
+      font-family: Delius;
+      font-weight: 800;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      color: #fafafa;
+      gap: 0.25em;
+      z-index: 3; /* sobre el overlay */
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+
+    }
+
+    .from-right,
+    .from-bottom { 
+      opacity: 0;
+    }
+
+    .from-right {
+      animation: fadeInRightFlex 1.2s ease-out forwards;
+    }
+
+    .from-bottom {
+      animation: fadeInRightFlex 1.2s ease-out forwards;
+      animation-delay: 0.3s; /* entra después */
     }
   }
 
   &__home {
     background-image: url(../../assets/home2.jpg);
   }
-
   &__puerto-seguro {
     background-image: url(../../assets/header_puerto_seguro.jpg);
   }
-
   &__online {
     background-image: url(../../assets/home.jpg);
   }
-
   &__iglesia {
     background-image: url(../../assets/iglesia.jpg);
   }
-
   &__formacion {
     background-image: url(../../assets/header.jpg);
   }
-
   &__ofrendas {
     background-image: url(../../assets/header_ofrendas.jpg);
+  }
+}
+
+@keyframes fadeInRightFlex {
+  0% { 
+    opacity: 0; 
+    transform: translateX(40px);
+  }
+  100% { 
+    opacity: 1; 
+    transform: translateX(0);
   }
 }
