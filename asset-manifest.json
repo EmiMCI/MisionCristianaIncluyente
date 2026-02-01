@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MisionCristianaIncluyente/static/css/main.ec50e76f.css",
-    "main.js": "/MisionCristianaIncluyente/static/js/main.4b82a95a.js",
+    "main.js": "/MisionCristianaIncluyente/static/js/main.dc65da6d.js",
     "static/media/CentroDeCapacitacion.mp4": "/MisionCristianaIncluyente/static/media/CentroDeCapacitacion.ae18835643f560a94ddd.mp4",
     "static/media/header.jpg": "/MisionCristianaIncluyente/static/media/header.6763a4876abb8db1d9a7.jpg",
     "static/media/jesus.jpg": "/MisionCristianaIncluyente/static/media/jesus.ab1444132495b1f1e744.jpg",
@@ -32,10 +32,10 @@
     "static/media/cancelar.png": "/MisionCristianaIncluyente/static/media/cancelar.3988bd44ccb57180ffff.png",
     "index.html": "/MisionCristianaIncluyente/index.html",
     "main.ec50e76f.css.map": "/MisionCristianaIncluyente/static/css/main.ec50e76f.css.map",
-    "main.4b82a95a.js.map": "/MisionCristianaIncluyente/static/js/main.4b82a95a.js.map"
+    "main.dc65da6d.js.map": "/MisionCristianaIncluyente/static/js/main.dc65da6d.js.map"
   },
   "entrypoints": [
     "static/css/main.ec50e76f.css",
-    "static/js/main.4b82a95a.js"
+    "static/js/main.dc65da6d.js"
   ]
 }
