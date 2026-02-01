@@ -62,11 +62,10 @@ const Footer = () => {
         <div>
           <h4>Sede Sur:</h4>
           <p>
-            Torres Adalid 1157, Narvarte Poniente, Benito Juárez, 03020 Ciudad
-            de México, CDMX
+            Tlacoquemecatl #123, Colonia del Valle, piso 2, Ciudad de México.
           </p>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.5220426732303!2d-99.16315312393156!3d19.3898374818805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff0939713485%3A0x6416f07f3a0490f7!2sTorres%20Adalid%201157%2C%20Narvarte%20Poniente%2C%20Benito%20Ju%C3%A1rez%2C%2003020%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1742610697829!5m2!1ses!2smx"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.7967311423963!2d-99.17445152398696!3d19.377952242422253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff9936e0ca47%3A0x8532a2160524c0c0!2sC.%20Tlacoquemecatl%20123%2C%20Tlacoquemecatl%20del%20Valle%2C%20Benito%20Ju%C3%A1rez%2C%2003200%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1769905930995!5m2!1ses!2smx"
             style={{ border: '0', width: '95%', height: '100px' }}
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
