@@ -74,41 +74,56 @@ const Footer = () => {
       </div>
       <div className="footer__socialmedia-container">
         <h3>Síguenos en nuestras redes</h3>
-        <a
-          href="https://www.facebook.com/MisionCristianaIncluyente"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={facebook} />
-        </a>
-        <a
-          href="https://twitter.com/Dios_y_los_Gays"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={twitter} />
-        </a>
-        <a
-          href="https://www.instagram.com/misioncristianaincluyentecdmx/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={instagram} />
-        </a>
-        <a
-          href="https://www.youtube.com/channel/UCpjT4YMJN3CDlmjGHIjHeoA/videos"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={youtube} />
-        </a>
-        <a
-          href="https://open.spotify.com/show/3iazBBnP1Spj6jrbKNRgoF?si=ystxycMhR3a2sDgiS1FjDQ"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={spotify} />
-        </a>
+        <div>
+          <a
+            href="https://twitter.com/Dios_y_los_Gays"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={twitter} />
+          </a>
+          <a
+            href="https://www.instagram.com/misioncristianaincluyentecdmx/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={instagram} />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCpjT4YMJN3CDlmjGHIjHeoA/videos"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={youtube} />
+          </a>
+          <a
+            href="https://open.spotify.com/show/3iazBBnP1Spj6jrbKNRgoF?si=ystxycMhR3a2sDgiS1FjDQ"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={spotify} />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.facebook.com/MisionCristianaIncluyente"
+            target="_blank"
+            rel="noreferrer"
+            className="facebook_variant"
+          >
+            <img src={facebook} />
+            Sede Oriente
+          </a>
+          <a
+            href="https://www.facebook.com/people/MCI-Sede-Sur/61553424692803/"
+            target="_blank"
+            rel="noreferrer"
+            className="facebook_variant"
+          >
+            <img src={facebook} />
+            Sede Sur
+          </a>
+        </div>
       </div>
       {/* <div id="notification" className="footer__notification">
         <img src={notification} onClick={() => setShowModal(true)} />

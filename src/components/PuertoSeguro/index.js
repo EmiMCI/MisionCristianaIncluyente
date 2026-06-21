@@ -6,6 +6,7 @@ import Footer from '../Footer';
 import PsLili from '../../assets/lideres/lili.jpg';
 import Jesus from '../../assets/lideres/jesus.jpg';
 import Fer from '../../assets/lideres/fer.jpg';
+import Rous from '../../assets/lideres/Rous.jpeg';
 
 const PuertoSeguro = () => {
   return (
@@ -81,7 +82,7 @@ const PuertoSeguro = () => {
           <div className="lider-item">
             <img src={Jesus} />
             <div className="lider-container">
-              <h3>Jesús Tecruceño Hernández</h3>
+              <h3>Pastor Jesús Tecruceño Hernández</h3>
               <p>
                 Estudió Teología en el Instituto Bíblico Logos perteneciente a
                 la Iglesia Cristiana Independiente Pentecostés A.R., ha tomado
@@ -94,9 +95,28 @@ const PuertoSeguro = () => {
             </div>
           </div>
           <div className="lider-item">
+            <img src={Rous} />
+            <div className="lider-container">
+              <h3>Pastora Rosangel Diaz Ramos </h3>
+              <p>
+                Soy parte de Misión Cristiana Incluyente desde el año 2013. Desde mis inicios encontré en esta comunidad un lugar seguro donde pude crecer espiritual y personalmente.
+                <br /><br />
+                A lo largo de estos años, Dios me permitió servir en diferentes áreas de la iglesia. Fui una de las primeras líderes del ministerio de jóvenes, posteriormente serví en grupos pequeños y tuve el privilegio de ser la primera estudiante del Centro de Capacitación. Más adelante fui ungida como miembro del grupo de ancianos y, después de mi graduación ministerial, continué preparándome para el llamado que Dios tenía para mi vida.
+                <br /><br />
+                En el año 2024 recibí la unción y el nombramiento como pastora de nuestra segunda iglesia y ramificación, MCI Sede Sur.
+                <br /><br />
+                Al mirar atrás, puedo reconocer que Dios ha sido el autor de mis días. Él me ha rescatado de lugares de cautividad, sanando heridas profundas de rechazo y restaurándome en medio de una historia marcada por el alcoholismo. Su amor y gracia han transformado mi vida, permitiéndome caminar en libertad y propósito.
+                <br /><br />
+                Hoy, a través de mi testimonio, puedo dar fe del lema que identifica a nuestras iglesias: Identidad, Seguridad y Dirección. Identidad, porque sabemos que somos hijas e hijos de Dios; Seguridad, porque somos salvos por su amor y su gracia; y Dirección, porque conocemos el propósito que Dios tiene para nuestras vidas y para nuestras familias LGBT+.
+                <br /><br />
+                Toda la gloria sea para Dios, quien continúa escribiendo mi historia y guiando mis pasos en el servicio a su pueblo.
+              </p>
+            </div>
+          </div>
+          <div className="lider-item">
             <img src={Fer} />
             <div className="lider-container">
-              <h3>Fernando Emmanuel Ponce</h3>
+              <h3>Pastor Fernando Emmanuel Ponce</h3>
               <p>
                 Hola me llamo Fernando Emmanuel, tengo 36 años. Soy cristiano
                 desde los 12 años de edad. Vivo en Cuernavaca. <br />
