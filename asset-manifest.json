@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MisionCristianaIncluyente/static/css/main.ec50e76f.css",
-    "main.js": "/MisionCristianaIncluyente/static/js/main.dc65da6d.js",
+    "main.css": "/MisionCristianaIncluyente/static/css/main.85b6f9ae.css",
+    "main.js": "/MisionCristianaIncluyente/static/js/main.0479ab83.js",
     "static/media/CentroDeCapacitacion.mp4": "/MisionCristianaIncluyente/static/media/CentroDeCapacitacion.ae18835643f560a94ddd.mp4",
     "static/media/header.jpg": "/MisionCristianaIncluyente/static/media/header.6763a4876abb8db1d9a7.jpg",
     "static/media/jesus.jpg": "/MisionCristianaIncluyente/static/media/jesus.ab1444132495b1f1e744.jpg",
@@ -14,6 +14,7 @@
     "static/media/iglesia.jpg": "/MisionCristianaIncluyente/static/media/iglesia.4af402d76246e9a119c9.jpg",
     "static/media/header_ofrendas.jpg": "/MisionCristianaIncluyente/static/media/header_ofrendas.9a85451a7fa43538c8c8.jpg",
     "static/media/Logo_MCI_EMI-nbg.png": "/MisionCristianaIncluyente/static/media/Logo_MCI_EMI-nbg.266a8d8776afdce80f6a.png",
+    "static/media/Rous.jpeg": "/MisionCristianaIncluyente/static/media/Rous.23eb79ac3e537edd5733.jpeg",
     "static/media/GP-Josue.jpeg": "/MisionCristianaIncluyente/static/media/GP-Josue.eb95d6d25a4001dafcc6.jpeg",
     "static/media/GP-Andres.jpeg": "/MisionCristianaIncluyente/static/media/GP-Andres.ba21fb6516abc77287ca.jpeg",
     "static/media/GP-chema.jpeg": "/MisionCristianaIncluyente/static/media/GP-chema.88ff8c1dceeb04632045.jpeg",
@@ -31,11 +32,11 @@
     "static/media/alarma.png": "/MisionCristianaIncluyente/static/media/alarma.90be5d76b0779fc5d752.png",
     "static/media/cancelar.png": "/MisionCristianaIncluyente/static/media/cancelar.3988bd44ccb57180ffff.png",
     "index.html": "/MisionCristianaIncluyente/index.html",
-    "main.ec50e76f.css.map": "/MisionCristianaIncluyente/static/css/main.ec50e76f.css.map",
-    "main.dc65da6d.js.map": "/MisionCristianaIncluyente/static/js/main.dc65da6d.js.map"
+    "main.85b6f9ae.css.map": "/MisionCristianaIncluyente/static/css/main.85b6f9ae.css.map",
+    "main.0479ab83.js.map": "/MisionCristianaIncluyente/static/js/main.0479ab83.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec50e76f.css",
-    "static/js/main.dc65da6d.js"
+    "static/css/main.85b6f9ae.css",
+    "static/js/main.0479ab83.js"
   ]
 }
